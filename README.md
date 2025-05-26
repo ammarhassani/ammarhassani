@@ -3,8 +3,6 @@
 - 🌱 I’m currently learning Software Engineering, Data Science, IoT, Web Developing, Basic Networking
 - 💞️ I’m looking to collaborate on making life easier
 - 📫 How to reach me ...
-
-Email: azahrani337@gmail.com
-
-WhatsApp: +966550051233
+- Email: Eng.AlHassani@outlook.com
+- WhatsApp: +966550051233
 
