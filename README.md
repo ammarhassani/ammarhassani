@@ -25,7 +25,24 @@ Riyadh, Saudi Arabia
 
 ---
 
-### Selected work
+### AML engineering
+
+#### AML Transaction Reporting · private repository, built for the AML Risk & Control unit
+
+A portfolio of read-only tools that sit on top of the bank's core-banking ledger in the enterprise data warehouse. They aggregate and surface activity for analysts. Detection scenarios and alerting stay in the bank's transaction monitoring platform.
+
+- **Customer activity lookup** (live, reconciled against source): search by customer ID or account for ledger activity, accounts, and blocks. Ships as a Python desktop app, with a parallel Power BI query.
+- **Account transfers:** find transfers seven ways, split into internal, local, and international, with direction and purpose, grouped by counterparty.
+- **Top spenders:** highest point-of-sale spend over a date range and where it went. Packaged as a Windows executable.
+- **Pattern Hub:** sweeps a date range for individuals matching specific typologies and ranks candidates for analyst review. Each rank shows the evidence behind it, and it never files, alerts, or writes back.
+- **MIS Workbench:** management information as a picker over a measure and dimension catalog, with generated SQL, query plans, and charts.
+- **Warehouse Truth:** a dated, cited record of what the source tables actually contain. Every figure the other tools rely on is measured once and cited from there.
+
+**How it's built:** about 25k lines of Python and 50+ SQL files. Every new query is checked with `EXPLAIN` before it runs, to stay inside the warehouse's workload rules. Totals are reconciled against a direct `SUM` on the ledger before anything is called verified. A single `check.py` runs module self-tests, rejects SQL that names undeclared tables, and catches broken links.
+
+---
+
+### Selected projects
 
 #### [Silni (صِلْني)](https://github.com/ammarhassani/silni_app) · flagship, solo founder-engineer
 
@@ -59,7 +76,7 @@ A block-based documentation CMS in plain JavaScript with no build step. It has h
 
 ### Toolkit
 
-**Data & compliance work:** Python · SQL · SAS · Power Query · VBA · Advanced Excel · ETL · data scraping · machine learning · BI / MIS · data visualization
+**Data & compliance work:** Python · SQL · SAS · Power Query · VBA · Advanced Excel · ETL · data scraping · machine learning · BI / MIS · Power BI · data visualization
 
 **Product engineering:** Flutter / Dart · Supabase (Postgres) · Firebase · TypeScript / JavaScript · React / Next.js · SwiftUI
 
