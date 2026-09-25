@@ -1,102 +1,77 @@
-# Hi there, I'm Ammar Al-Hassani! 👋
+# Ammar Al-Zahrani
 
-### Software Engineer & Aspiring Data Analyst
+**AML technology & automation specialist.** I'm a software engineer who works inside a bank's compliance function. I find the manual steps in anti-money-laundering work and replace them with tools, pipelines, and models.
 
-Welcome to my GitHub! I'm a recent **Software Engineering graduate** with strong technical analysis skills, currently working in **Quality Assurance at Al-Rajhi Bank** where I'm gaining valuable financial and credit systems experience to complement my data analysis expertise.
-
----
-
-## 🎓 About Me
-
-- 🎯 **Career Goal**: Data Analyst 
-- 💼 **Current Role**: Quality Assurance at Al-Rajhi Bank (gaining financial domain expertise)
-- 🎓 **Education**: Recent Graduate - Bachelor's in Software Engineering (GPA: 4.50/5.0) | Associate in Computer Science (GPA: 4.26/5.0)
-- 💼 **Experience**: 5+ years in IT, with current exposure to financial and credit systems
-- 🌍 **Location**: Saudi Arabia
-- 🔍 **Focus**: Data Analysis, Machine Learning, and Financial Data Insights
+Riyadh, Saudi Arabia
 
 ---
 
-## 🛠️ Technical Skills
+### What I work on
 
-### Programming & Development
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Al-Rajhi Bank, Compliance: AML Risk & Control Specialist** · Oct 2025 to present
 
-### Data & Analytics
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=pytorch&logoColor=white)
+- I'm the technical resource the AML units go to (investigation, monitoring, reporting). I look for manual bottlenecks and automate them.
+- I lead AML strategy where compliance meets technology: transaction monitoring, system modernization, and MIS delivery.
+- I bring AI and ML into AML work, including case analysis, scenario threshold tuning, parameter optimization, and false-positive reduction.
+- I'm building a way to move paper KYC records into electronic customer due diligence access.
+- I produce SAMA ad-hoc regulatory reports that turn complex transaction data into audit-ready output.
+- I build BI dashboards, automated reports, and data models where off-the-shelf tools fall short.
 
-**Core Competencies:**
-- 📊 Data Analysis & Visualization
-- 🤖 Machine Learning & Deep Learning
-- 🏦 Financial Data & Credit Systems Knowledge
-- 🔍 Data Validation & Quality Control
-- 📈 Business Intelligence & Reporting
-- 🛡️ Risk Management Analytics
-- ⚙️ Process Automation
-- 🏗️ Big Data Processing
+**Al-Rajhi Bank, Retail Credit Risk: Quality Assurance Officer** · Sep 2024 to Oct 2025
+
+- Analyzed mortgage and auto-finance application data for trends, anomalies, and risk indicators.
+- Validated applications with rule-based checks and transformation pipelines that fed the fraud department.
+- Automated reporting with Python, Power Query, and Excel, and built dashboards for credit risk decisions.
 
 ---
 
-## 💼 Professional Highlights
+### Selected work
 
-### 🏦 Al-Rajhi Bank (2024 - Present) - Quality Assurance
-- Working with mortgage and auto finance loan applications, gaining deep financial domain knowledge
-- Developing understanding of credit systems, risk assessment, and banking processes
-- Applying technical skills to validate data accuracy and financial compliance
-- Building expertise in financial data structures and regulatory requirements
-- Leveraging Python and analytical tools for process improvement
+#### [Silni (صِلْني)](https://github.com/ammarhassani/silni_app) · flagship, solo founder-engineer
 
-### 🏥 Sun Cities Medical (2019 - 2024)
-- Contributed to process re-engineering project that reduced paperwork by 75%
-- Helped optimize transportation scheduling, reducing costs by 30%
-- Supported financial operations coordination
-- Assisted in expanding operations to multiple branches
-- Worked with a team of 6 sales managers across different regions
+An Arabic-first Islamic app for keeping family ties (صلة الرحم). **Live on the [App Store](https://apps.apple.com/sa/app/%D8%B5%D9%84%D9%86%D9%8A/id6756042988).**
 
----
+- **Product:** relatives and interaction tracking, an interactive family tree, scheduled smart reminders, daily streaks, and a free tier plus a MAX subscription.
+- **Anees (أنيس):** an AI companion with a written Arabic persona. It shows up at set points in the app (home greeting, after a logged visit or call, after a broken streak) and has counseling modes and a message writer.
+- **Admin-driven AI:** Anees's identity, personality sections, model parameters, touch-point prompts, and scenarios live in Supabase tables. I edit them from **silni-admin**, a Next.js dashboard on Vercel, so persona changes ship without an app release.
+- **Engineering:** Flutter + Riverpod on the client. Supabase (Postgres, RLS, 180+ migrations) and Deno edge functions for scheduled reminders, smart nudges, push, and a DeepSeek proxy. Firebase Cloud Messaging, RevenueCat, and Sentry.
+- Rewritten from an earlier React Native / Expo prototype to Flutter.
 
-## 🌟 Notable Projects
+#### [Rizq (رِزق)](https://github.com/ammarhassani/Rizq) · in development
 
-- **NFC Office Automation System** (Graduation Project - A+)
-  - Developed automated professor office door tags using NFC technology
-  - Created secure webpage integration for visitor management
-  - Implemented controlled access protocols for security
+A resource-planning suite for Saudi freelancers: proposal studio, client book, income ledger, bilingual invoicing, rate calculator, and a HADAF eligibility tracker.
+Next.js 16 · TypeScript · Supabase with RLS on every table · DeepSeek via the Vercel AI SDK · Vitest + Playwright. Arabic-first with full RTL.
 
----
+#### [Mizan (ميزان)](https://github.com/ammarhassani/Mizan-App)
 
-## 📚 Currently Learning
+An iOS daily planner built around prayer times. It has a drag-and-drop timeline with prayer blocks, 8 calculation methods, adhan notifications, and works offline.
+SwiftUI · SwiftData · Combine · CoreLocation.
 
-- 📊 **Data Science** - Expanding knowledge in statistical analysis and data modeling
-- 📈 **Data Analysis** - Advanced techniques for extracting meaningful insights
-- 💼 **Business Intelligence & Analysis** - Strategic data interpretation for decision-making
-- 🤖 **Artificial Intelligence** - Exploring AI applications and methodologies
+#### [NoiseAnalyzer](https://github.com/ammarhassani/NoiseAnalyzer-TVTC-Version)
+
+A real-time sound analyzer that started as a college project and grew out of my interest in sound engineering. It uses Web Audio FFT to measure dB levels, classify the environment, and flag bass-, treble-, or speech-heavy profiles. Bilingual EN/AR, packaged for Android with Cordova.
+
+#### [Headless Docs CMS](https://github.com/ammarhassani/360KPI-DOCS-CMS)
+
+A block-based documentation CMS in plain JavaScript with no build step. It has heading, paragraph, code, table, and alert blocks, imports a folder of existing docs, and exports the whole project as a ZIP.
 
 ---
 
-## 🎯 Collaboration Interests
+### Toolkit
 
-I'm interested in **leveraging data analysis to solve real-world problems**, especially in financial sectors! I'm open to collaborating on:
+**Data & compliance work:** Python · SQL · SAS · Power Query · VBA · Advanced Excel · ETL · data scraping · machine learning · BI / MIS · data visualization
 
-- 📊 Data Analysis & Visualization Projects
-- 🏦 Financial Data Analytics & Credit Risk Modeling
-- 🤖 Machine Learning Solutions for Business Intelligence
-- 📈 Predictive Analytics & Statistical Modeling
-- 🛡️ Financial Risk Assessment & Data-Driven Insights
+**Product engineering:** Flutter / Dart · Supabase (Postgres) · Firebase · TypeScript / JavaScript · React / Next.js · SwiftUI
 
 ---
 
-## 📫 Let's Connect!
+### Credentials
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Eng.AlHassani@outlook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/engammaralzahrani/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/966550051233)
+- **Certified Compliance Officer (CCO)**, 3rd Edition, The Financial Academy (2026)
+- **National Comprehensive AML/CTF Program**, The Financial Academy & Presidency of State Security (2026)
+- **B.Sc. Software Engineering**, TVTC Communications & Information College (2025), GPA 4.45/5
+- **Associate Diploma in Computer Science**, King Saud University (2022), GPA 4.26/5. Graduation project (A+): an NFC smart door-tag system with scan-only secured pages.
 
 ---
 
-Thanks for visiting my profile! Feel free to explore my repositories and reach out if you'd like to collaborate. 🤝
+[LinkedIn](https://www.linkedin.com/in/engammaralhassani) · [eng.alhassani@outlook.com](mailto:eng.alhassani@outlook.com)
