@@ -68,10 +68,6 @@ SwiftUI · SwiftData · Combine · CoreLocation.
 
 A real-time sound analyzer that started as a college project and grew out of my interest in sound engineering. It uses Web Audio FFT to measure dB levels, classify the environment, and flag bass-, treble-, or speech-heavy profiles. Bilingual EN/AR, packaged for Android with Cordova.
 
-#### [Headless Docs CMS](https://github.com/ammarhassani/360KPI-DOCS-CMS)
-
-A block-based documentation CMS in plain JavaScript with no build step. It has heading, paragraph, code, table, and alert blocks, imports a folder of existing docs, and exports the whole project as a ZIP.
-
 ---
 
 ### Toolkit
